@@ -444,8 +444,8 @@
 .fancybox-button--left:after,
 .fancybox-button--right:after {
   top: 18px;
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   background: transparent;
   border-top: 2px solid currentColor;
   border-right: 2px solid currentColor
