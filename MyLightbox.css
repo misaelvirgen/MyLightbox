@@ -23,6 +23,7 @@
   z-index: 99992
 }
 
+/* Change this to change the color of the background */
 .fancybox-bg {
   position: absolute;
   top: 0;
@@ -36,11 +37,13 @@
   backface-visibility: hidden
 }
 
+/* Change this to change the opacity of the background */
 .fancybox-container--ready .fancybox-bg {
   opacity: .87;
   transition-timing-function: cubic-bezier(.22, .61, .36, 1)
 }
 
+/* Changes the effect over all bar of controls */
 .fancybox-controls {
   position: absolute;
   top: 0;
@@ -64,14 +67,17 @@
   display: none
 }
 
+/* Change this to change the info bar position */
 .fancybox-show-infobar .fancybox-infobar {
   display: inline-block;
-  pointer-events: all
+  pointer-events: all;
 }
 
+/* Change the height of the info bar */
 .fancybox-infobar__body {
   display: inline-block;
   width: 70px;
+  height: 40px;
   line-height: 44px;
   font-size: 13px;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -377,12 +383,13 @@
   text-decoration: underline
 }
 
+/* Change the height and width of the buttons */
 .fancybox-button {
   display: inline-block;
   position: relative;
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
+  width: 40px;
+  height: 40px;
+  line-height: 48px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -433,6 +440,7 @@
   transform: rotate(-135deg)
 }
 
+/* Use this to change the size and position of both left and right arrows */
 .fancybox-button--left:after,
 .fancybox-button--right:after {
   top: 18px;
